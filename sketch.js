@@ -56,7 +56,8 @@ function draw() {
       spaceship1.destroy();
       background(bg)
       stroke(20);
-      textSize(80)
+      textSize(80);
+      fill("white");
       text("Your score is " + score, 100, height/2 - 300);
       gameState = END;
     }
