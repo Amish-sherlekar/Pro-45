@@ -27,7 +27,7 @@ function setup() {
 function draw() {
   if (gameState === PLAY) {
     background(51);
-    stroke(20)
+    stroke(20);
     textSize(20);
     text("Score"+score, 100, 100)
     if (keyDown("UP_ARROW")) {
