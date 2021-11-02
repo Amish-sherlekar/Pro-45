@@ -30,7 +30,7 @@ function draw() {
     background(51);
     stroke(20);
     textSize(20);
-    text("Score"+score, 100, 100)
+    text("Score:"+score, 100, 100)
     if (keyDown("UP_ARROW")) {
       spaceship1.y = spaceship1.y - 50;
     }
@@ -58,7 +58,7 @@ function draw() {
       stroke(20);
       textSize(80);
       fill("white");
-      text("Your score is " + score, 100, height/2 - 300);
+      text("Score is :" + score, 100, height/2 - 300);
       gameState = END;
     }
     asteroidGp();
